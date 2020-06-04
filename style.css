@@ -1,0 +1,455 @@
+
+body, html {
+    height: 100%;
+}
+
+#container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(4, 78px);
+
+}
+
+#square {
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+    background-color: red;
+}
+
+#circle {
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+    border-radius: 50px;
+    background-color: red;
+}
+
+#square2 {
+    width: 50px;
+    height: 50px;
+    border: solid black;
+    margin: 20px;
+    background-color: red;
+}
+
+#semi-square {
+    width: 50px;
+    height: 50px;
+    border: solid black;
+    border-radius: 0 0 0 30px;
+    background-color: red;
+    margin: 20px;
+}
+
+
+#semi-circle {
+    width: 50px;
+    height: 50px;
+    border: solid black;
+    border-radius: 0 50px 50px 50px;
+    background-color: green;
+    margin: 20px;
+}
+
+#semi-circle2 {
+    width: 50px;
+    height: 50px;
+    border: solid black;
+    border-radius: 0 30px 0 30px;
+    background-color: yellow;
+    margin: 20px;
+}
+
+#notebook {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    margin: 20px;
+    border: 4px solid black;
+    position: relative;
+}
+
+#notebook-id {
+    width: 30px;
+    height: 10px;
+    background-color: black;
+    transform: translate(10px, 10px)
+}
+
+#notebook2 {
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    border: 4px solid black;
+    position: relative;
+    margin: 20px;
+
+}
+
+#notebook-id1 {
+    width: 30px;
+    height: 10px;
+    background-color: yellow;
+    transform: translate(10px, 10px)
+}
+
+
+#notebook-id2 {
+    width: 30px;
+    height: 10px;
+    background-color: yellow;
+    transform: translate(10px, 20px)
+}
+
+
+#red-square {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    margin: 20px;
+    position: relative;
+    border: 4px solid black;
+}
+
+#cross1 {
+    width: 30px;
+    height: 10px;
+    background-color: white;
+    transform: translate(10px, 20px);
+    position: absolute;
+}
+
+#cross2 {
+    width: 10px;
+    height: 30px;
+    background-color: white;
+    transform: translate(20px, 10px);
+    position: absolute;
+}
+
+#white-square {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    margin: 20px;
+    position: relative;
+    border: 4px solid black;
+}
+
+#x1 {
+    width: 30px;
+    height: 8px;
+    background-color: black;
+    position: absolute;
+    transform: translate(11px, 22px) rotate(-45deg);
+}
+
+
+#x2 {
+    width: 30px;
+    height: 8px;
+    background-color: black;
+    position: absolute;
+    transform: translate(11px, 22px) rotate(45deg);
+}
+
+#white-circle {
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+    border-radius: 50px;
+    border: 4px solid black;
+    margin: 20px;
+    background-color: white;
+    
+}
+
+#cr1 {
+    width: 30px;
+    height: 8px;
+    background-color: black;
+    position: absolute;
+    transform: translate(11px, 22px) rotate(-45deg);
+
+}
+
+#cr2 {
+    width: 30px;
+    height: 8px;
+    background-color: black;
+    position: absolute;
+    transform: translate(11px, 22px) rotate(45deg); 
+}
+
+#circle-arrow {
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+    border-radius: 50px;
+    border: 4px solid black;
+    margin: 20px;
+    background-color: white;
+}
+
+#arr1 {
+    width: 25px;
+    height: 5px;
+    background-color: black;
+    position: absolute;
+    transform: translate(10px, 23px);
+}
+
+#arr2 {
+    width: 20px;
+    height: 5px;
+    background-color: black;
+    position: absolute;
+    transform: translate(22px, 19px) rotate(45deg)
+}
+
+#arr3 {
+    width: 20px;
+    height: 5px;
+    background-color: black;
+    position: absolute;
+    transform: translate(22px, 30px) rotate(-45deg)
+}
+
+#gray-square {
+    width: 50px;
+    height: 50px;
+    background-color: gray;
+    margin: 20px;
+    position: relative;
+    border: 4px solid black;
+}
+
+#eye1 {
+    border: 4px solid black;
+    width: 7px;
+    height: 7px;
+    background-color: red;
+    position: absolute;
+    border-radius: 50px;
+    transform: translate(5px, 10px)
+}
+
+#eye2 {
+    border: 4px solid black;
+    width: 7px;
+    height: 7px;
+    background-color: red;
+    position: absolute;
+    border-radius: 50px;
+    transform: translate(30px, 10px)
+}
+
+#mouth {
+    width: 30px;
+    height: 6px;
+    background-color: red;
+    border: 4px solid black;
+    border-radius: 4px;
+    position: absolute;
+    transform: translate(8px, 30px)
+
+}
+
+
+#angry-square {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    margin: 20px;
+    position: relative;
+    border: 4px solid black;
+    border-radius: 12px 12px 18px 18px;
+}
+
+#ey1 {
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border: 4px solid black;
+    border-radius: 0px 50px 50px 50px;
+    position: absolute;
+    transform: translate(5px, 10px);
+}
+
+#pup1 {
+    width: 6px;
+    height: 6px;
+    border-radius: 50px;
+    background-color: black;
+    transform: translate(3px, 5px);
+}
+
+#ey2 {
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border: 4px solid black;
+    border-radius: 50px 0px 50px 50px;
+    position: absolute;
+    transform: translate(28px, 10px)
+}
+
+#pup2 {
+    width: 6px;
+    height: 6px;
+    border-radius: 50px;
+    background-color: black;
+    transform: translate(2px, 4px)
+}
+
+#fangs {
+    width: 15px;
+    height: 3px;
+    border-top: 4px solid black;
+    border-left: 7px solid black;
+    border-right: 7px solid black;
+    border-bottom: 7px solid transparent;
+    position: absolute;
+    transform: translate(12px, 34px);
+}
+
+#bird {
+    width: 50px; 
+    height: 50px; 
+    background-color: lightblue;
+    margin: 20px;
+    border: 4px solid black;
+    position: relative;
+
+}
+
+#bird-body {
+    width: 35px;
+    height: 35px;
+    background-color: darkblue;
+    border-radius: 50px 50px 50px 0;
+    position: absolute;
+    transform: translate(5px, 10px);
+}
+#wing {
+    width: 25px;
+    height: 25px;
+    background-color: lightskyblue;
+    border-radius: 50px 50px 50px 0;
+    position: absolute;
+    border-right: 3px black solid;
+    transform: translate(8px, 18px)
+}
+
+#bird-head {
+    width: 15px;
+    height: 15px;
+    background-color: darkblue;
+    border-radius: 50px 0 50px 50px;
+    position: absolute;
+    transform: translate(30px, 6px) rotate(45deg);
+}
+
+#bird-eye {
+    width: 3px;
+    height: 3px;
+    background-color: white;
+    border-radius: 50px;
+    transform: translate(4px, 4px)
+}
+
+#kirby {
+    width: 50px; 
+    height: 50px; 
+    background-color: lightblue;
+    margin: 20px;
+    border: 4px solid black;
+    position: relative;
+
+}
+
+#body {
+    width: 30px;
+    height: 30px;
+    background-color: lightpink;
+    border-radius: 50px;
+    position: absolute;
+    transform: translate(10px, 13px);
+}
+
+#left-foot {
+    width: 10px;
+     height: 8px;
+     background-color: rgb(240, 82, 116);
+     border-radius: 50px;
+     position: absolute;
+     transform: translate(13px, 36px) rotate(-10deg);
+     border-bottom: 1px solid black;
+} 
+
+#right-foot {
+    width: 10px;
+    height: 8px;
+    background-color: rgb(240, 82, 116);
+    border-radius: 50px;
+    position: absolute;
+    transform: translate(30px, 30px) rotate(-20deg);
+    border-bottom: 1px solid black;
+}
+
+#left-arm {
+    width: 4px;
+    height: 8px;
+    background-color: lightpink;
+    border-radius: 50px;
+    border-right: 1px solid black;
+    position: absolute;
+    transform: translate(10px, 26px);
+
+}
+
+#right-arm {
+    width: 4px;
+    height: 8px;
+    background-color: lightpink;
+    border-radius: 50px;
+    border-left: 1px solid black;
+    position: absolute;
+    transform: translate(34px, 20px);
+}
+
+#left-eye {
+    width: 2px;
+    height: 4px;
+    background-color: black;
+    position: absolute;
+    transform: translate(18px, 16px);
+}
+
+#right-eye {
+    width: 2px;
+    height: 4px;
+    background-color: black;
+    position: absolute;
+    transform: translate(28px, 16px);
+}
+
+#mouth1 {
+    width: 15px;
+    height: 10px;
+    background-color: rgb(173, 51, 78);
+    border-radius: 50px;
+    position: absolute;
+    transform: translate(17px, 21px);
+}
+
+#inner-mouth {
+    width: 6px;
+    height: 3px;
+    background-color: rgb(240, 82, 116);
+    border-radius: 50px;
+    position: absolute;
+    transform: translate(5px, 7px);
+}
